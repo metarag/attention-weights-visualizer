@@ -3,6 +3,8 @@
 Attention weights visualizer allows users to drop a JSON file containing text 
 entries with a weight associated to each word within each entry. It simply visualizes these weights.
 
+![](src/assets/sample-screenshot.png)
+
 Deployed to firebase under the project attention-weights-visualizer
 
 Live app: https://attention-weights-visualizer.firebaseapp.com
