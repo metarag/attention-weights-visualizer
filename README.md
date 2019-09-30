@@ -1,4 +1,11 @@
-# AttnWeightsVisualizer
+# Attention Weights Visualizer
+
+Attention weights visualizer allows users to drop a JSON file containing text 
+entries with a weight associated to each word within each entry. It simply visualizes these weights.
+
+Deployed to firebase under the project attention-weights-visualizer
+
+Live app: https://attention-weights-visualizer.firebaseapp.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
