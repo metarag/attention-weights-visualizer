@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .visualization-spans-box {
+    border: rgba(0, 0, 0, 0.87) 1px dotted;
+    border-radius: 4px;
+    padding: 5px;
+  }
+}

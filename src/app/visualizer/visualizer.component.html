@@ -1,0 +1,7 @@
+<h4>{{entry.title}}</h4>
+<div class="visualization-spans-box">
+  <span *ngFor="let attentionWord of entry.words" [matTooltip]="attentionWord.weight.toString()"
+        [ngStyle]="getStyle(attentionWord.weight)">
+    {{attentionWord.word}}
+  </span>
+</div>

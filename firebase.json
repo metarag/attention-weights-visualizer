@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SirWindfield/vscode-firebase-configuration-schema-plugin/master/schemas/firebase.schema.json",
+  "hosting": {
+    "public": "dist/attn-weights-visualizer",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "predeploy": "ng build --prod",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

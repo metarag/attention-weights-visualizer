@@ -1,0 +1,9 @@
+<button (click)="previous.emit()" [disabled]="currentIndex === 0" mat-icon-button matTooltip="Previous">
+  <mat-icon>chevron_left</mat-icon>
+</button>
+
+<small>{{currentIndex + 1}} of {{totalItems}}</small>
+
+<button (click)="next.emit()" [disabled]="currentIndex === totalItems - 1" mat-icon-button matTooltip="Next">
+  <mat-icon>chevron_right</mat-icon>
+</button>

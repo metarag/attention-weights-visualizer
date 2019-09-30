@@ -1,0 +1,7 @@
+<ngx-file-drop (onFileDrop)="fileDropped($event)" accept="json" contentClassName="drop-zone-content"
+               directory="false" multiple="false">
+  <ng-template let-openFileSelector="openFileSelector" ngx-file-drop-content-tmp>
+    <div class="description">Drop attention weights file here</div>
+    <button (click)="openFileSelector()" color="primary" mat-raised-button type="button">Browse Files</button>
+  </ng-template>
+</ngx-file-drop>
